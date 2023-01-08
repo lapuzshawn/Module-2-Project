@@ -1,0 +1,236 @@
+/* Universal Selector */
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+
+/* Element Selectors select all of that element type */
+body {
+    background-color: #e2d4ca;
+}
+
+/* Class Selectors select all elements with that class */
+.header {
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #4f6c7a;
+    color: #ffffff;
+}
+
+.header h1 {
+    position: relative;
+    padding-left: 0px;
+    background-color: #cacaca;
+    display: inline-block;
+    font-size: 40px;
+}
+
+
+/* This changes the links to Gill Sans */
+.header div {
+    position: relative;
+    padding-bottom: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+/* This changes displays the list in an inline block with 25px left margin */
+.header div ul li {
+    display: inline-block;
+    margin-right: 25px;
+    margin-bottom: 25px;
+    color: #ffffff;
+    text-decoration-line: underline;
+}
+
+.header div ul li:hover {
+    text-decoration-line: none;
+}
+
+/* This changes the text color to white */
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+/* This changes the font size to 16px */
+p {
+    font-size: 16px;
+    margin: 12 px;
+}
+
+.banner {
+    height: 100px;
+    width: 100%;
+    margin-bottom: 25px;
+    /* background-image: url("../images/digital-marketing-meeting.jpg"); */
+    background-size: cover;
+    background-position: center;
+}
+
+/* This adds a contents margin on the left of 20px and sets width to 75%  */
+.content {
+    width: 85%;
+    display: inline-block;
+    margin-right: 20px;
+    float: right;
+}
+.content h2{
+    display: inline-block;
+    margin-left: -200px;
+
+}
+
+/* This adds a padding and font family to the benefits class*/
+/* .titles {
+    margin-left: 20px;
+    padding: 20px;
+    clear: both;
+    float: left;
+    width: 20%;
+    height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #2589bd;
+} */
+
+
+/* -----------PHASE 6----------  */
+.about-me {
+    margin-bottom: 20px;
+    margin-right: 50px;
+    padding: 30px;
+    max-height: fit-content(20em);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+.my-work {
+    margin-bottom: 20px;
+    margin-right: 50px;
+    padding: 50px;
+    max-height: fit-content(20em);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+.contact-me {
+    margin-bottom: 20px;
+    margin-right: 50px;
+    padding: 50px;
+    max-height: fit-content(20em);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+/* -----------PHASE 6.5----------  */
+/* This styles the images */
+/* .about-me h2 {
+    margin-bottom: 20px;
+    font-size: 30px;
+}
+.about-me img {
+    max-height: 200px;
+}
+
+.my-work h2 {
+    margin-bottom: 20px;
+    font-size: 30px;
+}
+.my-work img {
+    max-height: 200px;
+}
+
+.contact-me h2 {
+    margin-bottom: 20px;
+    font-size: 30px;
+}
+.contact-me img {
+    max-height: 200px;
+} */
+
+/* This changes displays the list in an inline block with 25px left margin */
+.contact-me div ul li {
+    display: inline-block;
+    margin-left: 25px;
+}
+
+
+/* -----------PHASE CARDS----------  */
+.products {
+    flex: 4;
+    background-color: rgb(153, 153, 153);
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+
+.card {
+    border-style: dashed;
+    border-width: 10px;
+    border-color: rgb(176, 203, 194);
+    border-radius: 1px;
+    padding: 10px;
+    margin: 10px;
+    flex: 0 0 400px;
+    
+
+  }
+
+  .card h2 {
+    margin-bottom: 20px;
+    font-size: 30px;
+  }
+  
+  .card header {
+    position: absolute;
+    /* margin-bottom: -50px; */
+    border-style: dashed;
+    
+  }
+  .card:nth-of-type(1) {
+    width: 100%;
+    border-style: solid;
+ 
+  }
+  .card p {
+    position: relative;
+    text-align: center;
+ 
+  }
+  
+  .card img {
+    justify-content: center;
+    width: auto;
+    filter: blur(5px);
+    max-height: 200px;
+    position: center;
+  }
+  /* FIX HOVER */
+  .card:hover img {
+    filter: blur(0px);
+}  
+
+
+  
+/* -----------PHASE 7----------  */
+/* This adds attributes to the footer*/
+.footer {
+    padding: 30px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+
+.footer h2 {
+    font-size: 15px;
+}
+
